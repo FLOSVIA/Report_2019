@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(-135deg, rgb(246, 255, 164), rgb(223, 42, 57)) fixed;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+  }
+  
+  div {
+    margin: 120px 0;
+    text-align: center;
+  }
+  p {
+    font-family: Meiryo, "Hiragino Kaku Gothic Pro W3", Courier New, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: #fff;
+  }
+  
