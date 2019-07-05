@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   img { display: block; margin: 0px auto; }
 
   #menuBar
@@ -63,3 +64,70 @@ p
 {
 text-align: center;
 }
+=======
+  img { display: block; margin: 0px auto; }
+
+  #menuBar
+  {
+    text-align: center;
+    height: 30px;
+    width: : 850px;
+  }
+  #menuBar ul
+  {
+    position:block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #menuBar ul li
+  {
+    text-align: center;
+    background-color: #2E2E2E;
+    color: blue;
+    list-style-type:none;
+    float: left;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 200px;
+    border: 1px solid #c0c0c0;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0px 5px 0px;
+  }
+  #menuBar .link
+  {
+    width: : 150px;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration:none;
+  }
+.Photo
+{
+  position: block;
+  top:70px;
+  bottom: 100px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  padding: 70px 0px 10px 0px
+
+}
+.txt
+{
+  position: block;
+  bottom: 100px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 5px 70px 5px
+
+}
+p
+{
+text-align: center;
+}
+>>>>>>> 50329d31d3002b539269429eca73936ab5d0f218
