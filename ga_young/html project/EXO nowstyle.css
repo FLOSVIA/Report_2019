@@ -1,0 +1,17 @@
+h1{color: white;}
+a:link { text-decoration: none;
+  color: white;
+}
+a:visited{
+  color:#FFFFFF;
+}
+h4{
+  color:#3FB58C;
+}
+footer{ position:fixed;
+left:0px;
+bottom:0px;
+height:30px;
+width:100%;
+background:grey;
+color: white; }

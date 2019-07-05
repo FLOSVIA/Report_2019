@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>EXO now</title>
+  <link rel="stylesheet" href="EXO nowstyle.css">
+</head>
+<body bgcolor=#242525>
+  <center>
+  <h1><a href="main.html">EXO</a></h1>
+  <br>
+
+  <a href="https://youtu.be/j2aQ_NqeTNw"><h4>엑소 디오 솔로곡 '괜찮아도 괜찮아' 7월1일 6시 공개 </h4><img class="mySlides"  src="괜찮아도괜찮아.jpg" width="25%">
+  <a href="https://now.smtown.com/news/detail/476478"><h4>엑소 新 유신 '찬세' 출격</h4><img class="mySlides" src="찬세.jpg" width="25%">
+  <a href="https://now.smtown.com/news/detail/476475"><h4>7월은 엑소의 달! 엑소의 뜨거운 여름이 시작된다.</h4><img class="mySlides" src="익스플로레이션.jpg" width="25%">
+  <a href="https://youtu.be/0oc-__IN4FM"><h4>엑소 백현 솔로 미니 앨범 'City Lights' : Day & Night</h4><img class="mySlides" src="솔로솔로.gif" width="25%">
+
+
+  <script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+
+<footer> copyright &copy; http://www.w3bai.com/ko/w3css/w3css_slideshow.html</footer>
