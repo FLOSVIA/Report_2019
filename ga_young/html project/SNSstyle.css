@@ -1,0 +1,25 @@
+h4{
+  color: white;
+}
+a:link { text-decoration: none;
+  color: white;
+}
+a:visited{
+  color:#FFFFFF;
+}
+.text-gradient1 {
+    background: -webkit-linear-gradient(30deg, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2em;
+}
+.text-gradient2 {
+    color: red;
+    -webkit-background-clip: text;
+    font-size: 2em;
+}
+.box{
+  margin: 30px;
+    border: 30px solid : red;
+    padding: 30px;
+}
