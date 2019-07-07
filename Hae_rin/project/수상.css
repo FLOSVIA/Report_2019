@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+  
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+
+    background: linear-gradient(-135deg, rgb(212, 255, 201), rgb(255, 170, 227)) fixed;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+  }
+  
+  div {
+    margin: 120px 0;
+    text-align: center;
+  }
+  p {
+    font-family: Meiryo, "Hiragino Kaku Gothic Pro W3", Courier New, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+  }
+  

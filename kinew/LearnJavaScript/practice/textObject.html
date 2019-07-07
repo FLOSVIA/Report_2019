@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text 객체</title>
+    </head>
+    <body>
+        <h1>값 API</h1>
+        <ul>
+            <li id="valueTarget">HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <script type="text/javascript" src="textObject.js"></script>
+        <hr>
+        <h1>조작 API</h1>
+        <h4>종류</h4>
+        <ol>
+            <li>appendData()</li>
+            <li>deleteData()</li>
+            <li>insertData()</li>
+            <li>replaceData()</li>
+            <li>substringData()</li>
+        </ol>
+        <p id="target">Cording Everybody!</p>
+        <p>data : <input type="text" id="datasource" value="JavaScript"></p>
+        <p>start : <input type="text" id="start" value="5"></p>
+        <p>end : <input type="text" id="end" value="5"></p>
+        <p>
+            <input type="button" value="appendData(data)" onclick="callAppendData();">
+            <input type="button" value="deleteData(start, end)" onclick="callDeleteData();">
+            <input type="button" value="insertData(start, data)" onclick="callInsertData();">
+            <input type="button" value="replaceData(start, end, data)" onclick="callReplaceData();">
+            <input type="button" value="substringData(start, end)" onclick="callSubstringData();">
+        </p>
+    </body>
+</html>
