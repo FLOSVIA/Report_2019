@@ -1,0 +1,31 @@
+*{ margin:0; padding: 0; }
+
+body{
+         font-size: 16px;
+         color: white;
+         background-image:url('login.jpg');
+         background-size: cover;
+}
+
+#login-form{
+         width:250px;
+         margin:100px auto;
+         border: 1px solid gray;
+         border-radius: 5px;
+         padding: 15px;
+
+}
+
+#login-form input, #login-form label{
+         display:block;
+}
+
+#login-form label{
+         margin-top: 10px;
+}
+
+#login-form input{
+         margin-top: 5px;
+         font-size: 16px;
+         line-height: 20px;
+}
